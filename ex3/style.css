@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(66, 60, 60);
+    color: #e4e0e0;
+}
+h1 {
+    text-align: center;
+}
+
+.grid-container {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(20px, 1fr));
+    gap: 15px;
+    padding: 10px;
+    background-image: image();
+}
+
+.grid-item {
+    border: 1px solid #e2dcdc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
